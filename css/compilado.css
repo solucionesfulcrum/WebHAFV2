@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.img-carrusel {
+  height: 40vh;
+  object-fit: cover;
+  margin-top: 10px; }
+
+.nav__imagen {
+  height: 2.6rem;
+  width: 3rem;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.text-title {
+  color: #376565;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2rem; }
+
+.text-titleSec {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  padding: 25px; }
+
+.text-titleImg {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  padding: 25px; }
+
+.img-nosotros {
+  height: 65vh;
+  width: 100%;
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  opacity: 0.9; }
+
+.text-centrado {
+  position: absolute; }
+
+.text-titleDet {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-left: 55px;
+  margin-right: 55px; }
+
+#nosotros {
+  border: none; }
+
+#donaciones {
+  border: none; }
+
+.img-donaciones {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover; }
+
+.text-dona {
+  color: black;
+  text-align: center;
+  font-size: 1rem; }
+
+.img-corazon-dona {
+  height: 3rem;
+  width: 5rem; }
+
+.img-huella-dona {
+  height: 2rem;
+  width: 2rem; }
+
+.text-huella {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.contenedor-corazon {
+  display: flex;
+  justify-content: center; }
+
+.imagen__foto {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  z-index: 10; }
+
+.imagen__foto:hover {
+  background-color: #F7AFC4;
+  z-index: 20; }
+
+.imagen__fotoDetalle {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 0.5rem; }
+
+.fondoNav {
+  background: #376565;
+  background: linear-gradient(219deg, #376565 54%, white 54%); }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x)); }
+
+.bgCard {
+  background-color: #376565;
+  border-color: #376565; }
+
+.colorText {
+  color: white; }
+
+.btn-primary:hover, .btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #8cbbbb;
+  border-color: #8cbbbb; }
+
+.boton {
+  text-decoration: none;
+  margin-top: 2rem;
+  padding: 5px;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #376565;
+  border-radius: 6px;
+  border: 2px solid #376565; }
+
+.contImg {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.textoImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: transparent; }
+
+.textoImg:hover {
+  color: #376565; }
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(124, 180, 176, 0.5); }
+
+.navbar-nav .nav-link:hover {
+  color: rgba(245, 244, 244, 0.7); }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #f1f7f7; }
+
+.btn--macho {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  z-index: 10; }
+
+.btn--macho:hover {
+  background-color: #8FB9F7;
+  z-index: 20;
+  opacity: 0.5; }
+
+.btn--hembra {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  z-index: 10; }
+
+.btn--hembra:hover {
+  background-color: #F7AFC4;
+  z-index: 20;
+  opacity: 0.5; }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 320px) {
+  .text-title {
+    font-size: 1rem; }
+  .text-titleSec {
+    font-size: 0.75rem; }
+  .text-titleDet {
+    font-size: 0.75rem; }
+  .img-corazon-dona {
+    width: 2.5rem;
+    height: 1.75rem; }
+  .text-dona {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem; }
+  .text-huella {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.8rem; }
+  .fondoNav {
+    background: white;
+    background: linear-gradient(219deg, white 54%, white 54%); }
+  .navbar-light .navbar-nav .nav-link {
+    color: black; } }
+
+@media only screen and (min-width: 320px) {
+  .text-title {
+    font-size: 1.5rem; }
+  .text-titleSec {
+    font-size: 1rem; }
+  .text-titleDet {
+    font-size: 1rem; }
+  .img-corazon-dona {
+    width: 2.5rem;
+    height: 1.75rem; }
+  .text-dona {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem; }
+  .text-huella {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.8rem; }
+  .fondoNav {
+    background: white;
+    background: linear-gradient(219deg, white 54%, white 54%); }
+  .navbar-light .navbar-nav .nav-link {
+    color: black; } }
+
+@media only screen and (min-width: 768px) {
+  .text-title {
+    font-size: 2rem; }
+  .text-titleSec {
+    font-size: 1.5rem; }
+  .text-titleDet {
+    font-size: 1.5rem; }
+  .img-corazon-dona {
+    width: 2.5rem;
+    height: 1.5rem; }
+  .text-dona {
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  .text-huella {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.2rem; }
+  .fondoNav {
+    background: white;
+    background: linear-gradient(219deg, white 54%, white 54%); }
+  .navbar-light .navbar-nav .nav-link {
+    color: black; } }
+
+@media only screen and (min-width: 1024px) {
+  .text-dona {
+    font-size: 1.5rem; }
+  .fondoNav {
+    background: #376565;
+    background: linear-gradient(219deg, #376565 54%, white 54%); }
+  .navbar-light .navbar-nav .nav-link {
+    color: white; } }
+
+.contenedorImgPet {
+  width: 400px; }
+
+.imagenPetShop1 {
+  background-image: url(../images/petShop/producto1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop2 {
+  background-image: url(../images/petShop/producto2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop3 {
+  background-image: url(../images/petShop/producto3.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop4 {
+  background-image: url(../images/petShop/producto4.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop5 {
+  background-image: url(../images/petShop/producto5.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop6 {
+  background-image: url(../images/petShop/producto6.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop7 {
+  background-image: url(../images/petShop/producto7.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop8 {
+  background-image: url(../images/petShop/producto8.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop9 {
+  background-image: url(../images/petShop/producto9.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop10 {
+  background-image: url(../images/petShop/producto10.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
